@@ -10,7 +10,7 @@ while($naam -ne "geen"){
     $naam = Read-Host "Geef de namen op voor de sinterklaasloterij type 'geen' om te stoppen"
 }
 
-
+#test
 for ($i = 0; $i -lt $namen.Count; $i++) {
     if ($i -eq 0) {
         Write-Host "$($namen[$i]) heeft $($namen[$names.Count - 1]) gekozen en mag voor hem of haar een kado maken"
